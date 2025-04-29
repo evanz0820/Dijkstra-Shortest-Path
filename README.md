@@ -1,7 +1,5 @@
 # Dijkstra's Algorithm Implementation with Apache Spark GraphX
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A high-performance implementation of Dijkstra's shortest path algorithm using Apache Spark's GraphX framework, designed to process large-scale graph data efficiently in a distributed computing environment.
 
 ## Overview
@@ -45,8 +43,8 @@ Example:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dijkstra-graphx.git
-   cd dijkstra-graphx
+   git clone https://github.com/evanz0820/Dijkstra-Shortest-Path.git
+   cd Dijkstra-Shortest-Path
    ```
 
 2. Build the project:
@@ -110,16 +108,3 @@ The implementation uses Spark's Pregel API (based on the Bulk Synchronous Parall
 - The algorithm's performance scales with the number of edges and vertices
 - For very large graphs, increase the available memory for Spark executors
 - Consider using a larger cluster for graphs with millions of nodes
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Apache Spark GraphX team for their excellent graph processing library
-- Microsoft Azure for providing cloud infrastructure
-
-## Contact
-
-For questions or feedback, please open an issue on this repository or contact [your-email@example.com](mailto:your-email@example.com).
